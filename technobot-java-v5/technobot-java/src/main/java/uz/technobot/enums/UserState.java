@@ -1,0 +1,41 @@
+package uz.technobot.enums;
+
+public enum UserState {
+    IDLE,
+    // Catalog
+    BROWSING_CATEGORIES,
+    BROWSING_PRODUCTS,
+    // Search
+    WAITING_SEARCH_QUERY,
+    // Order
+    WAITING_PHONE,
+    WAITING_ADDRESS,
+    WAITING_PAYMENT_METHOD,
+    WAITING_ORDER_CONFIRM,
+    // Admin - mahsulot qo'shish
+    ADMIN_WAITING_CATEGORY,
+    ADMIN_WAITING_NAME_UZ,
+    ADMIN_WAITING_NAME_RU,
+    ADMIN_WAITING_PRICE,
+    ADMIN_WAITING_STOCK,
+    ADMIN_WAITING_IMAGE,
+    ADMIN_WAITING_BRAND,
+    // Admin - mahsulot tahrirlash
+    ADMIN_EDIT_PROD_NAME_UZ,
+    ADMIN_EDIT_PROD_NAME_RU,
+    ADMIN_EDIT_PROD_PRICE,
+    ADMIN_EDIT_PROD_STOCK,
+    ADMIN_EDIT_PROD_IMAGE,
+    ADMIN_EDIT_PROD_BRAND,
+    // Admin - kategoriya qo'shish
+    ADMIN_CAT_WAITING_NAME_UZ,
+    ADMIN_CAT_WAITING_NAME_RU,
+    ADMIN_CAT_WAITING_EMOJI,
+    // Admin - kategoriya tahrirlash
+    ADMIN_EDIT_CAT_NAME_UZ,
+    ADMIN_EDIT_CAT_NAME_RU,
+    ADMIN_EDIT_CAT_EMOJI,
+    // Admin - buyurtma
+    ADMIN_VIEWING_ORDERS,
+    ADMIN_VIEWING_ORDER_DETAIL
+}
